@@ -1,0 +1,60 @@
+
+.app{
+}
+
+.app-header h1{
+	text-align: center;
+}
+
+.app-header span{
+	color: coral;
+
+}
+
+.showcase{
+	background: url('images/header-bg.jpg');
+	width: 100%;
+	height: 350px;
+	background-size: cover;
+	background-position: center;
+	color: #ffffff;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.app-body {
+	display: flex;
+}
+
+.main {
+	flex-basis: 65%;
+	display: flex;
+	flex-direction: column;
+}
+
+.search{
+	padding: 10px;
+}
+
+.search input{
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	font-size: 24;
+}
+
+.map {
+	flex-grow: 1;
+	height: 100vh;
+	top: 0;
+	position: sticky;
+}
+
+.flats{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
